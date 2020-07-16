@@ -55,7 +55,7 @@ class _HomepageState extends State<Homepage>
   void initState() {
     _animationController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1000),
+      duration: const Duration(milliseconds: 800),
     );
     super.initState();
   }
@@ -230,11 +230,16 @@ class _HomepageState extends State<Homepage>
                           );
                         },
                         shape: CircleBorder(),
-                        color: const Color(0xFFFFFFFF),
+                        color: isDarkMode
+                            ? const Color(0xFF35303f)
+                            : const Color(0xFFFFFFFF),
                         child: Padding(
                           padding: EdgeInsets.all(width * 0.05),
                           child: Icon(
                             Icons.arrow_forward,
+                            color: isDarkMode
+                                ? const Color(0xFFFFFFFF)
+                                : const Color(0xFF000000),
                           ),
                         ),
                       )
