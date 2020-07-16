@@ -11,3 +11,10 @@ This flutter project is based on the design made by Matthieu Souteyrand on [Drib
 ## Screenshots 
 ![Screenshot 1](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/mock2.png) ![Screnshsot 2](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/mockup2.png)
 
+## Author 
+- [Facebook](https://www.facebook.com/shubhamhackz)
+- [Twitter](https://www.twitter.com/shubhamhackz)
+- [Stackoverflow](https://stackoverflow.com)
+- [Medium](https://www.medium.com)
+- [Instagram](https://www.instagram.com/shubhamhackz)
+
