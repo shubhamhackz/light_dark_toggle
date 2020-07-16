@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:toggle_button/components/animated_toggle_button.dart';
+import 'package:toggle_button/model/theme_color.dart';
 
 class Homepage extends StatefulWidget {
   @override
@@ -201,12 +202,16 @@ class _HomepageState extends State<Homepage>
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
-                      Text(
-                        'Skip',
-                        style: TextStyle(
-                          fontSize: width * 0.045,
-                          color: const Color(0xFF7c7b7e),
-                          fontFamily: 'Rubik',
+                      Padding(
+                        padding:
+                            EdgeInsets.symmetric(horizontal: width * 0.025),
+                        child: Text(
+                          'Skip',
+                          style: TextStyle(
+                            fontSize: width * 0.045,
+                            color: const Color(0xFF7c7b7e),
+                            fontFamily: 'Rubik',
+                          ),
                         ),
                       ),
                       RaisedButton(
@@ -257,22 +262,4 @@ class _HomepageState extends State<Homepage>
       ),
     );
   }
-}
-
-class ThemeColor {
-  List<Color> gradient;
-  Color backgroundColor;
-  Color toggleButtonColor;
-  Color toggleBackgroundColor;
-  Color textColor;
-  List<BoxShadow> shadow;
-
-  ThemeColor({
-    this.gradient,
-    this.backgroundColor,
-    this.toggleBackgroundColor,
-    this.toggleButtonColor,
-    this.textColor,
-    this.shadow,
-  });
 }

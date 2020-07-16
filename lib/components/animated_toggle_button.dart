@@ -49,7 +49,7 @@ class _AnimatedToggleState extends State<AnimatedToggle> {
               setState(() {});
             },
             child: Container(
-              width: width * 0.65,
+              width: width * 0.7,
               height: width * 0.13,
               decoration: ShapeDecoration(
                 color: widget.backgroundColor,
@@ -62,7 +62,7 @@ class _AnimatedToggleState extends State<AnimatedToggle> {
                 children: List.generate(
                   widget.values.length,
                   (index) => Padding(
-                    padding: EdgeInsets.symmetric(horizontal: width * 0.09),
+                    padding: EdgeInsets.symmetric(horizontal: width * 0.1),
                     child: Text(
                       widget.values[index],
                       style: TextStyle(
