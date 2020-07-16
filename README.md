@@ -1,4 +1,5 @@
 # Light Dark Toggle
+Made with 🔥 
 
 ![icon](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/icon.png)
 
