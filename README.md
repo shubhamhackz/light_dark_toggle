@@ -9,5 +9,5 @@ This flutter project is based on the design made by Matthieu Souteyrand on [Drib
 ![Ligh Dark Toggle](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/lightdark_concept_07.gif)
 
 ## Screenshots 
-![Screen Shot 1](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/iPhone%20X.png)
+![Screenshot 1](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/mock2.png) ![Screnshsot 2](https://github.com/shubhamhackz/light_dark_toggle/blob/master/files/mockup2.png)
 
