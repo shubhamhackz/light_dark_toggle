@@ -10,6 +10,7 @@ class _HomepageState extends State<Homepage>
     with SingleTickerProviderStateMixin {
   AnimationController _animationController;
   bool isDarkMode = false;
+  GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   ThemeColor lightMode = ThemeColor(
     gradient: [
@@ -71,6 +72,7 @@ class _HomepageState extends State<Homepage>
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
+      key: _scaffoldKey,
       backgroundColor:
           isDarkMode ? darkMode.backgroundColor : lightMode.backgroundColor,
       body: SafeArea(
@@ -195,7 +197,7 @@ class _HomepageState extends State<Homepage>
                 child: Container(
                   margin: EdgeInsets.symmetric(
                       vertical: height * 0.02, horizontal: width * 0.04),
-                  alignment: Alignment.bottomLeft,
+                  alignment: Alignment.bottomCenter,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
@@ -208,7 +210,20 @@ class _HomepageState extends State<Homepage>
                         ),
                       ),
                       RaisedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          _scaffoldKey.currentState.showSnackBar(
+                            SnackBar(
+                              content: Text(
+                                'Loved it? Give a star on Github',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontFamily: 'Rubik',
+                                  fontSize: width * 0.045,
+                                ),
+                              ),
+                            ),
+                          );
+                        },
                         shape: CircleBorder(),
                         color: const Color(0xFFFFFFFF),
                         child: Padding(
