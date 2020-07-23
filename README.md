@@ -21,8 +21,8 @@ Note : Uploaded apk is a fat apk which works on armeabi-v7a (ARM 32-bit), arm64-
 ## Author 
 - [Facebook](https://www.facebook.com/shubhamhackz)
 - [Twitter](https://www.twitter.com/shubhamhackz)
-- [Stackoverflow](https://stackoverflow.com)
-- [Medium](https://www.medium.com)
+- [Stackoverflow](https://stackoverflow.com/users/6915572/shubhamhackz?tab=profile)
+- [Medium](https://medium.com/@shubhamhackzz)
 - [Instagram](https://www.instagram.com/shubhamhackz)
 
 ## License 
